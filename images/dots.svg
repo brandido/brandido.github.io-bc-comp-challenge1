@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="19px" viewBox="0 0 65 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dots</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.5,17 C3.80558,17 0,13.19442 0,8.5 C0,3.80558 3.80558,0 8.5,0 C13.19442,0 17,3.80558 17,8.5 C17,13.19442 13.19442,17 8.5,17 Z M54.5,17 C49.80558,17 46,13.19442 46,8.5 C46,3.80558 49.80558,0 54.5,0 C59.19442,0 63,3.80558 63,8.5 C63,13.19442 59.19442,17 54.5,17 Z M54.5,15 C58.089851,15 61,12.089851 61,8.5 C61,4.910149 58.089851,2 54.5,2 C50.910149,2 48,4.910149 48,8.5 C48,12.089851 50.910149,15 54.5,15 Z M31.5,17 C26.80558,17 23,13.19442 23,8.5 C23,3.80558 26.80558,0 31.5,0 C36.19442,0 40,3.80558 40,8.5 C40,13.19442 36.19442,17 31.5,17 Z M31.5,15 C35.089851,15 38,12.089851 38,8.5 C38,4.910149 35.089851,2 31.5,2 C27.910149,2 25,4.910149 25,8.5 C25,12.089851 27.910149,15 31.5,15 Z" id="path-2"></path>
+        <filter x="-4.0%" y="-14.7%" width="107.9%" height="129.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.214312287   0 0 0 0 0.197505719   0 0 0 0 0.197505719  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dots" transform="translate(1.000000, 1.000000)">
+            <g id="Shape">
+                <use fill="#DFBD85" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#8C3F3F" stroke-width="1" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
